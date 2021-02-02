@@ -1,4 +1,5 @@
 # Workflow to build and deploy site to Github Pages using Hugo
+# Inspired by https://medium.com/zendesk-engineering/a-github-actions-workflow-to-generate-publish-your-hugo-website-f36375e56cf7
 
 # Name of Workflow
 name: github pages hugo

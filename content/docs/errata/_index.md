@@ -1,6 +1,7 @@
 ---
-#weight: 10
-#title: Errata
+weight: 50
+title: Errata
+bookToc: false
 ---
 
 # Jo

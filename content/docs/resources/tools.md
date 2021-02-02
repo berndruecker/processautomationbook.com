@@ -1,6 +1,6 @@
 ---
 weight: 5
-title: What To Expect From This Book
+title: Curated List of Tools
 bookToc: false
 ---
 

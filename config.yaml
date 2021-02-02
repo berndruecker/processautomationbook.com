@@ -1,9 +1,0 @@
-baseURL: https://processautomationbook.com/
-languageCode: en-us
-title: Practical Process Automation - Book Website
-theme: hugo-book
-
-params:
-  #BookMenuBundle: /menu
-  BookLogo: /images/cover.jpg
-  BookSection: docs
