@@ -3,11 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://processautomationbook.com/docs/code-examples/</loc>
-  </url>
-  
-  <url>
-    <loc>https://processautomationbook.com/docs/bpmn-resources/</loc>
+    <loc>https://processautomationbook.com/docs/resources/tools/</loc>
   </url>
   
   <url>
@@ -15,11 +11,47 @@
   </url>
   
   <url>
-    <loc>https://processautomationbook.com/docs/errata/</loc>
+    <loc>https://processautomationbook.com/docs/about-me/</loc>
+  </url>
+  
+  <url>
+    <loc>https://processautomationbook.com/docs/resources/content/</loc>
+  </url>
+  
+  <url>
+    <loc>https://processautomationbook.com/docs/resources/bpmn/</loc>
+  </url>
+  
+  <url>
+    <loc>https://processautomationbook.com/docs/code-examples/</loc>
+  </url>
+  
+  <url>
+    <loc>https://processautomationbook.com/docs/code-examples/onboarding/</loc>
+  </url>
+  
+  <url>
+    <loc>https://processautomationbook.com/docs/resources/</loc>
+  </url>
+  
+  <url>
+    <loc>https://processautomationbook.com/docs/resources/dmn/</loc>
+  </url>
+  
+  <url>
+    <loc>https://processautomationbook.com/docs/code-examples/flowing-retail/</loc>
+  </url>
+  
+  <url>
+    <loc>https://processautomationbook.com/docs/code-examples/distributed-systems/</loc>
   </url>
   
   <url>
     <loc>https://processautomationbook.com/docs/feedback/</loc>
+  </url>
+  
+  <url>
+    <loc>https://processautomationbook.com/docs/errata/</loc>
   </url>
   
   <url>

@@ -6,5 +6,47 @@
     <description>Recent content in Code Examples on Practical Process Automation - Book Website</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language><atom:link href="https://processautomationbook.com/docs/code-examples/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Customer Onboarding Example</title>
+      <link>https://processautomationbook.com/docs/code-examples/onboarding/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://processautomationbook.com/docs/code-examples/onboarding/</guid>
+      <description>Welcome to GitHub Pages #  You can use the editor on GitHub to maintain and preview the content for your website in Markdown files.
+Whenever you commit to this repository, GitHub Pages will run Jekyll to rebuild the pages in your site, from the content in your Markdown files.
+Content:
+{% for post in site.pages %}
+  {{post.excerpt | strip_html}}{% endfor %}
+  Markdown #  Markdown is a lightweight and easy-to-use syntax for styling your writing.</description>
+    </item>
+    
+    <item>
+      <title>Order Fullfillment Example</title>
+      <link>https://processautomationbook.com/docs/code-examples/flowing-retail/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://processautomationbook.com/docs/code-examples/flowing-retail/</guid>
+      <description>Welcome to GitHub Pages #  You can use the editor on GitHub to maintain and preview the content for your website in Markdown files.
+Whenever you commit to this repository, GitHub Pages will run Jekyll to rebuild the pages in your site, from the content in your Markdown files.
+Content:
+{% for post in site.pages %}
+  {{post.excerpt | strip_html}}{% endfor %}
+  Markdown #  Markdown is a lightweight and easy-to-use syntax for styling your writing.</description>
+    </item>
+    
+    <item>
+      <title>Other Examples</title>
+      <link>https://processautomationbook.com/docs/code-examples/distributed-systems/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://processautomationbook.com/docs/code-examples/distributed-systems/</guid>
+      <description>Welcome to GitHub Pages #  You can use the editor on GitHub to maintain and preview the content for your website in Markdown files.
+Whenever you commit to this repository, GitHub Pages will run Jekyll to rebuild the pages in your site, from the content in your Markdown files.
+Content:
+{% for post in site.pages %}
+  {{post.excerpt | strip_html}}{% endfor %}
+  Markdown #  Markdown is a lightweight and easy-to-use syntax for styling your writing.</description>
+    </item>
+    
   </channel>
 </rss>
