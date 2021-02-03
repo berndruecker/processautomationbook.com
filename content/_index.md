@@ -7,26 +7,29 @@ type: docs
 
 **Orchestration and Integration in Microservices and Cloud Native Architectures**
 
-This book...
+In today’s IT architectures, microservices and serverless functions play an increasingly important role. But how can you create meaningful, comprehensive, and connected business solutions if the individual components are decoupled and independent by design? This book provides a framework through examples and practical advice, and reveals how you can design complex processes in such an environment to deliver true business value.
+
+[Read more...](/docs/content/)
 
 
 {{< columns >}}
 
-![Cover](/images/cover.jpg)
+![Cover](/images/cover-big.jpg)
 
 <--->
 
 
-## Get This Book From O'Reilly
+[**Get This Book From O'Reilly**](https://learning.oreilly.com/library/view/practical-process-automation/9781492061441/)
 
-## Get Your Free Electronic Copy From Camunda
+You can get this book as part of your O'Reilly subscription. You can also start [a free 30 days trial](https://learning.oreilly.com/get-learning/?code=PPAER20)
 
+**Get Your Free Electronic Copy From Camunda**
 
-You can 
+*Coming soon...*
 
-## Get This Book From Amazon
+[**Get This Book From Amazon**](https://www.amazon.com/Practical-Process-Automation-Orchestration-Microservices/dp/149206145X)
 
-
+*Coming soon...*
 
 
 
