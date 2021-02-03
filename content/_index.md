@@ -1,6 +1,7 @@
 ---
 title: Introduction
 type: docs
+bookToc: false
 ---
 
 # Practical Process Automation

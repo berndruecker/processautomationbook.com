@@ -1,7 +1,7 @@
 ---
 weight: 5
 title: What To Expect From This Book
-bookToc: false
+bookToc: true
 ---
 
 # Summary 
