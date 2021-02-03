@@ -19,10 +19,6 @@
   </url>
   
   <url>
-    <loc>https://processautomationbook.com/docs/resources/bpmn/</loc>
-  </url>
-  
-  <url>
     <loc>https://processautomationbook.com/docs/code-examples/</loc>
   </url>
   
@@ -35,15 +31,19 @@
   </url>
   
   <url>
-    <loc>https://processautomationbook.com/docs/resources/dmn/</loc>
-  </url>
-  
-  <url>
     <loc>https://processautomationbook.com/docs/code-examples/flowing-retail/</loc>
   </url>
   
   <url>
+    <loc>https://processautomationbook.com/docs/resources/bpmn/</loc>
+  </url>
+  
+  <url>
     <loc>https://processautomationbook.com/docs/code-examples/distributed-systems/</loc>
+  </url>
+  
+  <url>
+    <loc>https://processautomationbook.com/docs/resources/dmn/</loc>
   </url>
   
   <url>

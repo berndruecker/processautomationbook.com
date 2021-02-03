@@ -25,15 +25,6 @@
     </item>
     
     <item>
-      <title>BPMN</title>
-      <link>https://processautomationbook.com/docs/resources/bpmn/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://processautomationbook.com/docs/resources/bpmn/</guid>
-      <description>Jo #  </description>
-    </item>
-    
-    <item>
       <title>Customer Onboarding Example</title>
       <link>https://processautomationbook.com/docs/code-examples/onboarding/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -45,15 +36,6 @@ Content:
 {% for post in site.pages %}
   {{post.excerpt | strip_html}}{% endfor %}
   Markdown #  Markdown is a lightweight and easy-to-use syntax for styling your writing.</description>
-    </item>
-    
-    <item>
-      <title>DMN</title>
-      <link>https://processautomationbook.com/docs/resources/dmn/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://processautomationbook.com/docs/resources/dmn/</guid>
-      <description>Jo #  </description>
     </item>
     
     <item>
@@ -71,6 +53,15 @@ Content:
     </item>
     
     <item>
+      <title>BPMN</title>
+      <link>https://processautomationbook.com/docs/resources/bpmn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://processautomationbook.com/docs/resources/bpmn/</guid>
+      <description>Jo #  </description>
+    </item>
+    
+    <item>
       <title>Other Examples</title>
       <link>https://processautomationbook.com/docs/code-examples/distributed-systems/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -82,6 +73,15 @@ Content:
 {% for post in site.pages %}
   {{post.excerpt | strip_html}}{% endfor %}
   Markdown #  Markdown is a lightweight and easy-to-use syntax for styling your writing.</description>
+    </item>
+    
+    <item>
+      <title>DMN</title>
+      <link>https://processautomationbook.com/docs/resources/dmn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://processautomationbook.com/docs/resources/dmn/</guid>
+      <description>Jo #  </description>
     </item>
     
   </channel>
