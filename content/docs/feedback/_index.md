@@ -4,4 +4,6 @@ title: Feedback
 bookToc: false
 ---
 
-# Jo
+# Feedback
+
+Please give feedback about the book, this homepage and the examples given: feedback@processautomationbook.com.
