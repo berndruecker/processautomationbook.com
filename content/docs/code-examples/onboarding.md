@@ -3,48 +3,49 @@ title: Customer Onboarding Example
 weight: 10
 ---
 
-## Welcome to GitHub Pages
- 
-You can use the [editor on GitHub](https://github.com/berndruecker/workflowbook.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+# Customer Onboarding Example
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+![Customer Onboarding](/images/examples/onboarding.png)
 
-Content:
+Alongside Chapter 2, there is this example that shows the customer onboarding process of a fictional telecommunications company as executable process solution.
 
-   {% for post in site.pages %}
+## Link To GitHub
 
-- {{post.excerpt | strip_html}}</p>
-    
-   {% endfor %}
-    
-### Markdown
+[Customer Onboarding Process on GitHub](https://github.com/berndruecker/customer-onboarding-camundacloud-springboot)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+## Stack
 
-# Header 1
-## Header 2
-### Header 3
+It used the following stack:
 
-- Bulleted
-- List
+* Camunda Cloud
+* Java
+* Spring Boot
 
-1. Numbered
-2. List
+The process model contains three tasks:
 
-**Bold** and _Italic_ and `Code` text
+* A service task that executes Java Code to score customers
+* A user task so that humans can approve customer orders (or not)
+* A service task that executes glue code to call the REST API of a CRM system
 
-[Link](url) and ![Image](src)
-```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+The process solution is a Maven project and contains:
 
-### Jekyll Themes
+* The onboarding process model as BPMN
+* Source code to provide the REST API for clients (using Spring Boot)
+* Java code to do the customer scoring
+* Glue code to implement the REST call to the CRM system
+* Fake for CRM system providing a REST API that can be called (to allow running this example self-contained)
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/berndruecker/workflowbook.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+## Current Limitations
 
-### Support or Contact
+At the time of writing the book, Camunda Cloud was missing some features, that should be used in this example:
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+* *Automated JUnit Tests*. The ability to write unit tests is limited. The sample code contains a [POC for how tests could look like](https://github.com/berndruecker/customer-onboarding-camundacloud-springboot/blob/master/src/test/java/io/berndruecker/onboarding/customer/CustomerOnboardingTests.java), but the real feature has still to land in Camunda Cloud later in 2021.
+
+* *BPMN User Task, a tasklist application and task forms*. As a workaround, the current source code simulates the user to approve customer orders by a service task. The configures task worker simply completes the user task. A feature set resolving this is expected in April 2021.
+
+* *Out-of-the-box DMN Integration*. As a workaround, this project contains own glue code, that executed decision using the Camunda DMN engine. A feature set resolving this is expected end of 2021.
+
+I will update the example as soon as features are released and available.
+
