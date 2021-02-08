@@ -5,23 +5,17 @@
   <meta name="generator" content="Hugo 0.80.0" />
   <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="description" content="Welcome to GitHub Pages #  You can use the editor on GitHub to maintain and preview the content for your website in Markdown files.
-Whenever you commit to this repository, GitHub Pages will run Jekyll to rebuild the pages in your site, from the content in your Markdown files.
-Content:
-{% for post in site.pages %}
-  {{post.excerpt | strip_html}}{% endfor %}
-  Markdown #  Markdown is a lightweight and easy-to-use syntax for styling your writing.">
-<meta name="theme-color" content="#FFFFFF"><meta property="og:title" content="Other Examples" />
-<meta property="og:description" content="Welcome to GitHub Pages #  You can use the editor on GitHub to maintain and preview the content for your website in Markdown files.
-Whenever you commit to this repository, GitHub Pages will run Jekyll to rebuild the pages in your site, from the content in your Markdown files.
-Content:
-{% for post in site.pages %}
-  {{post.excerpt | strip_html}}{% endfor %}
-  Markdown #  Markdown is a lightweight and easy-to-use syntax for styling your writing." />
+<meta name="description" content="Order Fulfillment Microservices Example #  In Chapter 7 and 8, there is this example that shows various microservices interacting to fulfill a customer&rsquo;s order. You can understand that there does not need to be any central orchestration and every microservice might include some process logic. Furthermore, you can also compare the solution approach to a pure event-based choreography.
+Link To GitHub #  Order Fulfillment on GitHub
+Stack #  It used the following stack:">
+<meta name="theme-color" content="#FFFFFF"><meta property="og:title" content="Order Fulfillment Example" />
+<meta property="og:description" content="Order Fulfillment Microservices Example #  In Chapter 7 and 8, there is this example that shows various microservices interacting to fulfill a customer&rsquo;s order. You can understand that there does not need to be any central orchestration and every microservice might include some process logic. Furthermore, you can also compare the solution approach to a pure event-based choreography.
+Link To GitHub #  Order Fulfillment on GitHub
+Stack #  It used the following stack:" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://processautomationbook.com/docs/code-examples/distributed-systems/" />
+<meta property="og:url" content="https://processautomationbook.com/docs/code-examples/order-fulfillment/" />
 
-<title>Other Examples | Practical Process Automation - Book Website</title>
+<title>Order Fulfillment Example | Practical Process Automation - Book Website</title>
 <link rel="manifest" href="/manifest.json">
 <link rel="icon" href="/favicon.png" type="image/x-icon">
 <link rel="stylesheet" href="/book.min.6c7c6446dfdee7c8c933e9bbc6e80ee3ed6c913b2a59519f2092c3c6a9d63e55.css" integrity="sha256-bHxkRt/e58jJM&#43;m7xugO4&#43;1skTsqWVGfIJLDxqnWPlU="><!--
@@ -139,7 +133,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="https://processautomationbook.com/docs/code-examples/flowing-retail/" class="">Order Fullfillment Example</a>
+    <a href="https://processautomationbook.com/docs/code-examples/order-fulfillment/" class=" active">Order Fulfillment Example</a>
   
 
         </li>
@@ -152,7 +146,7 @@ https://github.com/alex-shpak/hugo-book
   
 
   
-    <a href="https://processautomationbook.com/docs/code-examples/distributed-systems/" class=" active">Other Examples</a>
+    <a href="https://processautomationbook.com/docs/code-examples/other/" class="">Other Examples</a>
   
 
         </li>
@@ -305,7 +299,7 @@ https://github.com/alex-shpak/hugo-book
     <img src="/svg/menu.svg" class="book-icon" alt="Menu" />
   </label>
 
-  <strong>Other Examples</strong>
+  <strong>Order Fulfillment Example</strong>
 
   <label for="toc-control">
     
@@ -321,13 +315,9 @@ https://github.com/alex-shpak/hugo-book
   
 <nav id="TableOfContents">
   <ul>
-    <li><a href="#welcome-to-github-pages">Welcome to GitHub Pages</a>
-      <ul>
-        <li><a href="#markdown">Markdown</a></li>
-        <li><a href="#jekyll-themes">Jekyll Themes</a></li>
-        <li><a href="#support-or-contact">Support or Contact</a></li>
-      </ul>
-    </li>
+    <li><a href="#link-to-github">Link To GitHub</a></li>
+    <li><a href="#stack">Stack</a></li>
+    <li><a href="#alternative-approach-to-microservices-orchestration">Alternative Approach to Microservices Orchestration</a></li>
   </ul>
 </nav>
 
@@ -340,51 +330,34 @@ https://github.com/alex-shpak/hugo-book
 
       
       
-  <article class="markdown"><h2 id="welcome-to-github-pages">
-  Welcome to GitHub Pages
-  <a class="anchor" href="#welcome-to-github-pages">#</a>
+  <article class="markdown"><h1 id="order-fulfillment-microservices-example">
+  Order Fulfillment Microservices Example
+  <a class="anchor" href="#order-fulfillment-microservices-example">#</a>
+</h1>
+<p><img src="/images/examples/order-fullfilment-microservices.png" alt="Order Fulfillment " /></p>
+<p>In <strong>Chapter 7 and 8</strong>, there is this example that shows various microservices interacting to fulfill a customer&rsquo;s order. You can understand that there does not need to be any central orchestration and every microservice might include some process logic. Furthermore, you can also compare the solution approach to a pure event-based choreography.</p>
+<h2 id="link-to-github">
+  Link To GitHub
+  <a class="anchor" href="#link-to-github">#</a>
 </h2>
-<p>You can use the <a href="https://github.com/berndruecker/workflowbook.io/edit/master/index.md">editor on GitHub</a> to maintain and preview the content for your website in Markdown files.</p>
-<p>Whenever you commit to this repository, GitHub Pages will run <a href="https://jekyllrb.com/">Jekyll</a> to rebuild the pages in your site, from the content in your Markdown files.</p>
-<p>Content:</p>
-<p>{% for post in site.pages %}</p>
+<p><a href="https://github.com/berndruecker/flowing-retail/tree/master/kafka">Order Fulfillment on GitHub</a></p>
+<h2 id="stack">
+  Stack
+  <a class="anchor" href="#stack">#</a>
+</h2>
+<p>It used the following stack:</p>
 <ul>
-<li>
-<p>{{post.excerpt | strip_html}}<!-- raw HTML omitted --></p>
-<p>{% endfor %}</p>
-</li>
+<li>Camunda Platform / Camunda Cloud (both is available in sub folders)</li>
+<li>Java &amp; Spring Boot</li>
+<li>Apache Kafka</li>
 </ul>
-<h3 id="markdown">
-  Markdown
-  <a class="anchor" href="#markdown">#</a>
-</h3>
-<p>Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for</p>
-<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-markdown" data-lang="markdown">Syntax highlighted code block
-
-# Header 1
-<span style="color:#75715e">## Header 2
-</span><span style="color:#75715e">### Header 3
-</span><span style="color:#75715e"></span>
-<span style="color:#66d9ef">-</span> Bulleted
-<span style="color:#66d9ef">-</span> List
-
-<span style="color:#66d9ef">1.</span> Numbered
-<span style="color:#66d9ef">2.</span> List
-
-<span style="font-weight:bold">**Bold**</span> and <span style="font-style:italic">_Italic_</span> and <span style="color:#e6db74">`Code`</span> text
-
-[<span style="color:#f92672">Link</span>](<span style="color:#a6e22e">url</span>) and ![<span style="color:#f92672">Image</span>](<span style="color:#a6e22e">src</span>)
-</code></pre></div><p>For more details see <a href="https://guides.github.com/features/mastering-markdown/">GitHub Flavored Markdown</a>.</p>
-<h3 id="jekyll-themes">
-  Jekyll Themes
-  <a class="anchor" href="#jekyll-themes">#</a>
-</h3>
-<p>Your Pages site will use the layout and styles from the Jekyll theme you have selected in your <a href="https://github.com/berndruecker/workflowbook.io/settings">repository settings</a>. The name of this theme is saved in the Jekyll <code>_config.yml</code> configuration file.</p>
-<h3 id="support-or-contact">
-  Support or Contact
-  <a class="anchor" href="#support-or-contact">#</a>
-</h3>
-<p>Having trouble with Pages? Check out our <a href="https://help.github.com/categories/github-pages-basics/">documentation</a> or <a href="https://github.com/contact">contact support</a> and we’ll help you sort it out.</p>
+<h2 id="alternative-approach-to-microservices-orchestration">
+  Alternative Approach to Microservices Orchestration
+  <a class="anchor" href="#alternative-approach-to-microservices-orchestration">#</a>
+</h2>
+<p>As described in <strong>Chapter 6 (&ldquo;Using The Workflow Engine As Communication Channel&rdquo;)</strong> you can also use the workflow engine itself as communication channel between microservices, even if that might not always be a good idea (as discussed in the book in more detail). In this variant, there is no Apache Kafka.</p>
+<p><img src="/images/examples/workflow_logic_pub_sub_microservices.png" alt="A workflow engine as communication channel" /></p>
+<p>This <a href="https://github.com/berndruecker/flowing-retail/tree/master/zeebe">Order Fulfillment Example on GitHub</a> shows an executable example using Camunda Cloud.</p>
 </article>
  
       
@@ -398,7 +371,7 @@ https://github.com/alex-shpak/hugo-book
 
 
   <div>
-    <a class="flex align-center" href="https://github.com/berndruecker/processautomationbook.com/tree/master/content//docs/code-examples/distributed-systems.md" target="_blank" rel="noopener">
+    <a class="flex align-center" href="https://github.com/berndruecker/processautomationbook.com/tree/master/content//docs/code-examples/order-fulfillment.md" target="_blank" rel="noopener">
       <img src="/svg/edit.svg" class="book-icon" alt="Edit" />
       <span>Edit this page</span>
     </a>
@@ -424,13 +397,9 @@ https://github.com/alex-shpak/hugo-book
   
 <nav id="TableOfContents">
   <ul>
-    <li><a href="#welcome-to-github-pages">Welcome to GitHub Pages</a>
-      <ul>
-        <li><a href="#markdown">Markdown</a></li>
-        <li><a href="#jekyll-themes">Jekyll Themes</a></li>
-        <li><a href="#support-or-contact">Support or Contact</a></li>
-      </ul>
-    </li>
+    <li><a href="#link-to-github">Link To GitHub</a></li>
+    <li><a href="#stack">Stack</a></li>
+    <li><a href="#alternative-approach-to-microservices-orchestration">Alternative Approach to Microservices Orchestration</a></li>
   </ul>
 </nav>
 
