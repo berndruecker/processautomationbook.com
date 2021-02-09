@@ -61,6 +61,8 @@ Once again, I can only give my biased recommendation to the trainings my company
 
 - [BPMN 2.0 Training](https://camunda.com/services/training/bpmn-training/): 3 days training course, also provided online on 5 half days.
 
+## Improve This Page!
+
 Please [let me know](../feedback/) if you know of any other great resource I should add here!
 
 
