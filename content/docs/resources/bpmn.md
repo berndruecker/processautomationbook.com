@@ -63,6 +63,6 @@ Once again, I can only give my biased recommendation to the trainings my company
 
 ## Improve This Page!
 
-Please [let me know](../feedback/) if you know of any other great resource I should add here!
+Please [let me know](../../feedback/) if you know of any other great resource I should add here!
 
 
