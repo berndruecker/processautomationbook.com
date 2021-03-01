@@ -26,7 +26,8 @@ You can get this book as part of your O'Reilly subscription. You can also start 
 
 **Get Your Free Electronic Copy From Camunda**
 
-*Coming soon...*
+[Camunda](https://camunda.com/) was so kind to sponsor [a free electronic copy of the book. You can get now.](https://page.camunda.com/wp-practical-process-automation-book-excerpt)
+
 
 [**Get This Book From Amazon**](https://www.amazon.com/Practical-Process-Automation-Orchestration-Microservices/dp/149206145X)
 
