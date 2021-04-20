@@ -31,8 +31,6 @@ You can get this book as part of your O'Reilly subscription. You can also start 
 
 [**Get This Book From Amazon**](https://www.amazon.com/Practical-Process-Automation-Orchestration-Microservices/dp/149206145X)
 
-*Coming soon...*
-
 
 
 {{< /columns >}}
