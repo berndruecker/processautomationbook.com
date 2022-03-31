@@ -24,11 +24,6 @@ In today’s IT architectures, microservices and serverless functions play an in
 
 You can get this book as part of your O'Reilly subscription. You can also start [a free 30 days trial](https://learning.oreilly.com/get-learning/?code=PPAER20)
 
-[**Get Your Free Electronic Copy From Camunda**](https://page.camunda.com/wp-practical-process-automation-book-digital-release?utm_medium=referral&utm_source=processautomationbook)
-
-[Camunda](https://camunda.com/) was so kind to sponsor [a free electronic copy of the book.](https://page.camunda.com/wp-practical-process-automation-book-digital-release?utm_medium=referral&utm_source=processautomationbook)
-
-
 [**Get This Book From Amazon**](https://www.amazon.com/Practical-Process-Automation-Orchestration-Microservices/dp/149206145X)
 
 
