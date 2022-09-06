@@ -12,7 +12,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://processautomationbook.com/docs/resources/tools/</guid>
-      <description>Curated List of Tools #  Todo&amp;hellip;</description>
+      <description>Curated List of Tools # Todo&amp;hellip;</description>
     </item>
     
     <item>
@@ -21,7 +21,7 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://processautomationbook.com/docs/resources/content/</guid>
-      <description>Blogs, Talks And Articles #  Todo&amp;hellip;</description>
+      <description>Blogs, Talks And Articles # Todo&amp;hellip;</description>
     </item>
     
     <item>
@@ -30,9 +30,9 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://processautomationbook.com/docs/resources/best-practices/</guid>
-      <description>Best Practices #  You want to use visual models to better understand, discuss and remember processes. Hence it pays off to invest some effort in making the models easy to read and understand, which boils down to following modeling conventions. Most enterprises define their own conventions over time.
+      <description>Best Practices # You want to use visual models to better understand, discuss and remember processes. Hence it pays off to invest some effort in making the models easy to read and understand, which boils down to following modeling conventions. Most enterprises define their own conventions over time.
 You can find exemplary modeling conventions online:
- Creating readable process models Naming BPMN elements  Note that the Camunda also include further best practices for process automation projects using the Camunda Platform.</description>
+Creating readable process models Naming BPMN elements Note that the Camunda also include further best practices for process automation projects using the Camunda Platform.</description>
     </item>
     
     <item>
@@ -41,7 +41,7 @@ You can find exemplary modeling conventions online:
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://processautomationbook.com/docs/resources/bpmn/</guid>
-      <description>BPMN #  About #  Business process model and notation (BPMN) is an ISO standard, so there are many good resources available to learn more about it. You find some recommendations on this page. If you miss anything or know of any valuable resource that is not listed, don&amp;rsquo;t hesitate to give feedback or open a pull request for this page (click on the edit this page button at the bottom of the page).</description>
+      <description>BPMN # About # Business process model and notation (BPMN) is an ISO standard, so there are many good resources available to learn more about it. You find some recommendations on this page. If you miss anything or know of any valuable resource that is not listed, don&amp;rsquo;t hesitate to give feedback or open a pull request for this page (click on the edit this page button at the bottom of the page).</description>
     </item>
     
     <item>
@@ -50,7 +50,7 @@ You can find exemplary modeling conventions online:
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://processautomationbook.com/docs/resources/dmn/</guid>
-      <description>DMN #  About #  Decision model and notation (DMN) is a standard provided by the OMG. There are many good resources available to learn more about it. You find some recommendations on this page. If you miss anything or know of any valuable resource that is not listed, don&amp;rsquo;t hesitate to give feedback or open a pull request for this page (click on the edit this page button at the bottom of the page).</description>
+      <description>DMN # About # Decision model and notation (DMN) is a standard provided by the OMG. There are many good resources available to learn more about it. You find some recommendations on this page. If you miss anything or know of any valuable resource that is not listed, don&amp;rsquo;t hesitate to give feedback or open a pull request for this page (click on the edit this page button at the bottom of the page).</description>
     </item>
     
   </channel>

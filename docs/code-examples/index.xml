@@ -12,11 +12,11 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://processautomationbook.com/docs/code-examples/onboarding/</guid>
-      <description>Customer Onboarding Example #  Alongside Chapter 2, there is this example that shows the customer onboarding process of a fictional telecommunications company as executable process solution.
-Link To GitHub #  Customer Onboarding Process on GitHub
-Stack #  It used the following stack:
- Camunda Cloud Java Spring Boot  The process model contains three tasks:
- A service task that executes Java Code to score customers A user task so that humans can approve customer orders (or not) A service task that executes glue code to call the REST API of a CRM system  The process solution is a Maven project and contains:</description>
+      <description>Customer Onboarding Example # Alongside Chapter 2, there is this example that shows the customer onboarding process of a fictional telecommunications company as executable process solution.
+Link To GitHub # Customer Onboarding Process on GitHub
+Stack # It used the following stack:
+Camunda Cloud Java Spring Boot The process model contains three tasks:
+A service task that executes Java Code to score customers A user task so that humans can approve customer orders (or not) A service task that executes glue code to call the REST API of a CRM system The process solution is a Maven project and contains:</description>
     </item>
     
     <item>
@@ -25,9 +25,9 @@ Stack #  It used the following stack:
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://processautomationbook.com/docs/code-examples/order-fulfillment/</guid>
-      <description>Order Fulfillment Microservices Example #  In Chapter 7 and 8, there is this example that shows various microservices interacting to fulfill a customer&amp;rsquo;s order. You can understand that there does not need to be any central orchestration and every microservice might include some process logic. Furthermore, you can also compare the solution approach to a pure event-based choreography.
-Link To GitHub #  Order Fulfillment on GitHub
-Stack #  It used the following stack:</description>
+      <description>Order Fulfillment Microservices Example # In Chapter 7 and 8, there is this example that shows various microservices interacting to fulfill a customer&amp;rsquo;s order. You can understand that there does not need to be any central orchestration and every microservice might include some process logic. Furthermore, you can also compare the solution approach to a pure event-based choreography.
+Link To GitHub # Order Fulfillment on GitHub
+Stack # It used the following stack:</description>
     </item>
     
     <item>
@@ -36,8 +36,8 @@ Stack #  It used the following stack:</description>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://processautomationbook.com/docs/code-examples/other/</guid>
-      <description>Other Examples Mentioned in the Book #  Beside the two bigger use cases of Customer Onboarding and Order Fulfillment there are a couple of smaller examples promised in the book. You can find respective links to runnable source example on this page.
-Combining Process Models and Programming Code #  As mentioned in Chapter 3 (&amp;ldquo;Combining Process Models and Programming Code&amp;rdquo;), there are three conceptual ways to link BPMN process models with glue code.</description>
+      <description>Other Examples Mentioned in the Book # Beside the two bigger use cases of Customer Onboarding and Order Fulfillment there are a couple of smaller examples promised in the book. You can find respective links to runnable source example on this page.
+Combining Process Models and Programming Code # As mentioned in Chapter 3 (&amp;ldquo;Combining Process Models and Programming Code&amp;rdquo;), there are three conceptual ways to link BPMN process models with glue code.</description>
     </item>
     
   </channel>
