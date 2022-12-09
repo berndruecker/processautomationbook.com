@@ -13,7 +13,7 @@ This is why there is source code belonging to this book, which you can find in t
 # Examples Overview
 
 * [Customer Onboarding Example](onboarding/): A process solution used in Chapter 2 of the book to introduce executable process models. It contains a process to onboard new mobile phone customers in a telecommunication company. 
-* [Order Fulfillment Example](order-fulfillment/): Example using microservices implementing an end-to-end order fullfilment process that involves multiple microservices and various local process models. While mentioned at multiple places in the book, it the core example in Chapter 7 and Chapter 8.
+* [Order Fulfillment Example](order-fulfillment/): Example using microservices implementing an end-to-end order fullfilment process that involves multiple microservices and various local process models. While also mentioned at multiple places in the book, it is the core example in Chapter 7 and Chapter 8.
 * [Other Example](other/): Curated list of interesting links to more executable examples, typically demonstrating specific concepts.
 
 
